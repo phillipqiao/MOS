@@ -1,0 +1,99 @@
+{
+    "Customers": [
+        {
+            "purchases": ["item1"],
+            "name": "cat"
+        },
+        {
+            "purchases": [
+                "burger",
+                "ice cream",
+                "sushi",
+                "Save me",
+                "salmon",
+                "beer",
+                "jiding"
+            ],
+            "name": "phil"
+        },
+        {
+            "purchases": [
+                "fries",
+                "salmon",
+                "burger",
+                "beer"
+            ],
+            "name": "eric"
+        },
+        {
+            "purchases": [
+                "burger",
+                "beer"
+            ],
+            "name": "shivani"
+        }
+    ],
+    "name": "wendy",
+    "Items": [
+        {
+            "Customers": [
+                "phil",
+                "eric",
+                "guo",
+                "shivani"
+            ],
+            "price": 4,
+            "name": "burger",
+            "stock": 4
+        },
+        {
+            "Customers": ["eric"],
+            "price": 4,
+            "name": "fries",
+            "stock": 4
+        },
+        {
+            "Customers": [
+                "guo",
+                "shivani",
+                "phil"
+            ],
+            "price": 4,
+            "name": "beer",
+            "stock": 4
+        },
+        {
+            "Customers": [
+                "eric",
+                "phil"
+            ],
+            "price": 4,
+            "name": "salmon",
+            "stock": 4
+        },
+        {
+            "Customers": ["phil"],
+            "price": 5,
+            "name": "Save me",
+            "stock": 5
+        },
+        {
+            "Customers": [],
+            "price": 4.99,
+            "name": "steak",
+            "stock": 4
+        },
+        {
+            "Customers": [],
+            "price": 4.99,
+            "name": "chocolate dessert",
+            "stock": 4
+        },
+        {
+            "Customers": ["phil"],
+            "price": 5,
+            "name": "jiding",
+            "stock": 5
+        }
+    ]
+}

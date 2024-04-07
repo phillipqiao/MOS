@@ -1,0 +1,33 @@
+{
+  "Customers": [
+    {
+      "purchases": ["burger"],
+      "name": "David"
+    },
+    {
+      "purchases": [
+        "burger",
+        "fries"
+      ],
+      "name": "Phil"
+    }
+  ],
+  "name": "My Menu",
+  "Items": [
+    {
+      "Customers": [
+        "Phil",
+        "David"
+      ],
+      "price": 4.99,
+      "name": "burger",
+      "stock": 5
+    },
+    {
+      "Customers": ["Phil"],
+      "price": 1.99,
+      "name": "fries",
+      "stock": 3
+    }
+  ]
+}
